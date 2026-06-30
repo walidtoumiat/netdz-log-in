@@ -1,7 +1,9 @@
 body{
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(to bottom,#08f169, #ffffff);
+    background: linear-gradient(to bottom,#526d5d, #ffffff);
+    user-select: none;
+    color: #303133;
 }
 
 h1{
@@ -41,23 +43,27 @@ section h3 a{
 }
 
 input[type="email"]{
-    height: 40px;
-    width: 300px;
-    position: relative;
-    bottom: 10px;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
 }
 
 button{
-    height: 40px;
-    width: 310px;
-    background-color: #08f169;
+    height: 50px;
+    width: 410px;
+    background-color: #345b83;
+    color: #edeef0;
     position: relative;
     bottom: 10px;
+    border-radius: 6px;
+    border: none;
 }
 
 .help{
     position: relative;
-    right: 120px;
+    right: 170px;
     top: 30px;
 }
 
@@ -74,9 +80,15 @@ button{
 
 .help a{
     color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    gap: 5px;
+    transform: translate(60px);
 }
 
 p{
     position: relative;
-    top: 20px;
+    top: 30px;
 }
